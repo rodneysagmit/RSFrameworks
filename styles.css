@@ -1,5 +1,5 @@
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 html {
@@ -12,7 +12,7 @@ body {
 }
 
 .wrapper{
-    max-width: 1440px;
+    max-width: 1800px;
     margin: auto;
 }
 
@@ -33,10 +33,11 @@ header::after {
     padding: 10px 0px;
 }
 
-h1 {
+.title-logo {
     float: left;
     margin: 0;
     padding: 10px;
+    font-size: 2em;
 }
 
 nav {
@@ -52,14 +53,14 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 25px;
-    padding-top: 20px;
+    padding-top: 18px;
 }
 
 nav a {
     color: #444444;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 700;
 }
 
@@ -71,12 +72,43 @@ main {
     background-color: #eec6a0
 }
 
-.introduction-content {
-    max-width: 1200px;
+.hero-section-content {
+    max-width: 1600px;
+    min-height: 700px;
+    background-color: #0D1B2D;
     margin: auto;
-    padding-top: 100px;
-    color: black;
-    font-size: 2.5em;
+    padding-top: 80px;
+    padding-left: 10px;
+
+}
+
+.introduction-content {
+    color: #d1d5dd;
+    font-size: 2.2em;
+    float: left;
+    max-width: 1000px;
+}
+
+.introduction-image {
+    width: 400px;
+    margin: auto;
+    padding-right: 100px;
+    border-radius: 8px;
+    float: right;
+
+}
+
+.services-section {
+    margin: auto;
+    padding: 10px;
+    background-color: blue;
+}
+
+.contact-section {
+    margin: auto;
+    padding: 10px;
+    background-color: yellow;
+
 }
 
 footer {
