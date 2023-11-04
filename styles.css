@@ -50,11 +50,16 @@ header {
     padding: 5px;
 }
 
+.logo-link {
+    text-decoration: none;
+    color: black;
+}
+
 .navigation {
-    min-width: 450px;
+    min-width: 400px;
     display: flex;
-    justify-content: center;
-    gap: 1.2em;
+    justify-content: space-between;
+    gap: 1em;
 }
 
 .navigation a {
@@ -84,7 +89,7 @@ h1 {
 
 .hero-section-content {
     min-height: 700px;
-    background-image: linear-gradient(to right, black, grey);
+    background-image: linear-gradient(to right, #001b2e, #294c60);
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -100,7 +105,7 @@ h1 {
 }
 
 button {
-    background-color: orange;
+    background-color: #ffa500;
     border: none;
     color: black;
     font-size: 1em;
@@ -108,7 +113,7 @@ button {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .introduction-image-container {
@@ -122,6 +127,15 @@ button {
     padding: 0;
     border: 5px solid black;
 }
+
+.vision-mission {
+    margin: 0;
+}
+
+.vision-mission-content {
+    margin: 10px;
+}
+
 
 .services-section {
     margin: 0;
