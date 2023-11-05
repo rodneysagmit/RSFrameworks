@@ -1,8 +1,5 @@
-* {
-    font-family: 'Inter', sans-serif;
-}
-
 html {
+    font-size: 100%;  /* 16px */
     scroll-behavior: smooth;
 }
 
@@ -11,13 +8,37 @@ body {
     max-width: 1600px;
     margin: auto;
     box-shadow: 10px 2px 50px grey;
+    font-family: 'Poppins';
+    font-weight: 400;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+  }
+
 h1, h2 {
-    line-height: .8;
+    line-height: 1.2;
     text-transform: uppercase;
+}
+
+h1 {font-size: 4.210rem; /* 67.36px */}
+
+h2 {
+    font-size: 3.158rem; /* 50.56px */
     text-align: center;
 }
+
+h3 {font-size: 2.369rem; /* 37.92px */}
+
+h4 {
+    font-size: 1.777rem; /* 28.48px */
+    text-align: center;
+}
+
+h5 {font-size: 1.333rem; /* 21.28px */}
+
+small {font-size: 0.750rem; /* 12px */}
 
 .wrapper{
     margin: auto;
@@ -35,7 +56,6 @@ header {
 .logo-content {
     min-width: 400px; 
     display: flex;
-
 }
 
 .logo {
@@ -44,8 +64,6 @@ header {
 }
 
 .title-logo {
-    font-size: 2em;
-    font-weight: 900;
     margin: 0;
     padding: 5px;
 }
@@ -57,17 +75,17 @@ header {
 
 .navigation {
     min-width: 400px;
+    padding: 2px;
     display: flex;
     justify-content: space-between;
     gap: 1em;
+
 }
 
 .navigation a {
     color: hsl(0, 0%, 27%);
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 1.4em;
-    font-weight: 700;
 }
 
 .navigation a:hover {
@@ -76,15 +94,10 @@ header {
 
 main {
     line-height: 1.6;
-
 }
 
 .hero-section {
     margin: 0;
-}
-
-h1 {
-    font-size: 2.2em;
 }
 
 .hero-section-content {
@@ -98,7 +111,6 @@ h1 {
 
 .introduction-content {
     color: white;
-    font-size: 1.5em;
     margin: auto;
     padding: 50px 0px 10px 20px;
     max-width: 1080px;
@@ -108,7 +120,6 @@ button {
     background-color: #ffa500;
     border: none;
     color: black;
-    font-size: 1em;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
