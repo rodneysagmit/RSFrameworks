@@ -51,6 +51,7 @@ h1 {font-size: 4.210rem; /* 67.36px */}
 h2 {
     font-size: 3.158rem; /* 50.56px */
     text-align: center;
+    text-decoration: underline;
 }
 
 h3 {font-size: 2.369rem; /* 37.92px */}
@@ -114,20 +115,11 @@ header {
     color: hsl(0, 0%, 27%);
     text-decoration: none;
     text-transform: uppercase;
-    position: relative
 }
 
 .navigation li a:hover {
     color: black;
-}
-
-.navigation li a.active:before {
-    position: absolute;
-    content: "";
-    width: 35%;
-    height: 1px;
-    border-bottom: 2px solid black;
-    bottom: -6px;
+    border-bottom: 1px solid black;
 }
 
 
@@ -138,7 +130,7 @@ header {
     margin: 1em;
     /*background-color: var(--secondary);*/
     /*background-image: linear-gradient(to right, #001b2e, #294c60);*/
-    /*background-image: linear-gradient(-20deg,rgba(255, 255, 255, 0.15),#21212c),linear-gradient(45deg,#7c9c9b,#44505a 80%);*/
+    background-image: linear-gradient(-20deg,hsla(0, 0%, 100%, 0.851),#9DB5C8),linear-gradient(45deg,#7c9c9b,#44505a 90%);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -149,11 +141,22 @@ header {
 .introduction-content {
     color: var(--text);
     margin: auto;
-    max-width: 1080px;
+    max-width: 1000px;
+    padding: 2em;
+}
+
+.text-decoration {
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, #1f0249, rgb(134, 61, 2));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
 
 .primary-cta {
-    background-color: var(--primary);
+    background-color: var(--accent);
     color: black;
     font-size: 1.2rem;
     padding: .5em 1em;
@@ -165,14 +168,16 @@ header {
 
 .introduction-image-container {
     width: 500px;
-    border-radius: .8em;
     overflow: hidden;
+    margin: auto;
+    padding: 1em;
 }
 
 .introduction-image {
     width: 100%;
     margin: 0;
     padding: 0;
+    border-radius: .5em;
 }
 
 
@@ -199,19 +204,32 @@ header {
     justify-content: space-evenly;
     flex-wrap: wrap;
     gap: .5em;
+    margin: 0;
+    padding: 0;
 }
 
 .card {
-    width: 350px;
-    height: 300px;
+    width: 370px;
+    height: 400px;
     background-color: hsl(0, 10%, 90%);
     border-radius: .8em;
     margin: 0;
+    padding: 0;
     padding: 5px;
 }
 
-.card h3, .card p {
+.card h4 {
     text-align: center;
+    margin: .4em;
+    text-decoration: underline;
+}
+
+.card p {
+    margin: 0 .5em;
+}
+
+.card h5 {
+    margin: 0 1em;
 }
 
 .contact-section {
