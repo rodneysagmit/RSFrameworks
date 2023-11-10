@@ -136,6 +136,8 @@ header {
     align-items: center;
     flex-direction: row-reverse;
     border-radius: .8em;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+
 }
 
 .introduction-content {
@@ -216,6 +218,7 @@ header {
     margin: 0;
     padding: 0;
     padding: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 
 .card h4 {
@@ -248,4 +251,53 @@ footer {
 
 .footer-content {
     text-align: center;
+}
+
+
+label {
+    font-size: 1.333rem;
+}
+
+.contact-form {
+    width: 80%;
+    max-width: 800px;
+    padding: 10px;
+    background-color: hsl(0, 10%, 90%);
+    border-radius: 8px;
+    margin: auto;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.contact-form input, .contact-form textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 10px 0 10px 0;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #333;
+}
+
+.contact-form button {
+    background-color: var(--secondary);
+    color: #333;
+    font-size: 1.2rem;
+    padding: .5em 1em;
+    text-align: center;
+    border-radius: .8em;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.contact-form button:hover {
+    text-decoration: underline;
+    transform: translateY(1px);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
+              0 1px 1px 0 rgba(0,0,0,0.09);
 }

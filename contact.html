@@ -29,10 +29,29 @@
         </header>
         <main>
             <h1>Contact us</h1>
+
+            <form action="" autocomplete="off" class="contact-form">
+                <h4>We'd love to work with you!</h4>
+
+                <label for="name">Name</label>
+                <input name="name" type="text" id="name" />
+                <br>
+                <label for="email">Email</label>
+                <input name="email" type="email" id="email" required />
+                <br>
+                <label for="phone">Phone</label>
+                <input name="phone" type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+                <br>
+                <label for="message">Details</label>
+                <textarea id="message" cols="50" rows="20"></textarea>
+                <br>
+                <button type="submit">Send Message!</button>
+            </form>
         </main>
+
         <footer>
             <div class="footer-content">
-                <p>RS Frameworks</p>
+                <p>RS Frameworks LLC</p>
                 <p>&copy; Copyright 2023. All Rights Reserved.</p>
             </div>
         </footer>
