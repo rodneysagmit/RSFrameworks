@@ -74,8 +74,16 @@ p {
     max-width: 1600px;
     margin: 0 auto;
     /* box-shadow: 10px 2px 50px grey;*/
+    position: relative;
+    min-height: 100vh;
 }
 
+main {
+    padding-bottom: 5rem;    /* Footer height */
+}
+
+
+/* START HEADER */
 header {
     display: flex;
     justify-content: space-between;
@@ -103,7 +111,6 @@ header {
 }
 
 /* NAVIGATION */
-
 .navigation {
     list-style-type: none;
     display: flex;
@@ -120,10 +127,9 @@ header {
     color: black;
     border-bottom: 1px solid black;
 }
+/* END NAVIGATION & HEADER*/
 
-
-/* HERO SECTION */
-
+/* START HERO SECTION */
 .hero-section-content {
     min-height: 700px;
     margin: 1em;
@@ -136,7 +142,6 @@ header {
     flex-direction: row-reverse;
     border-radius: .8em;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
-
 }
 
 .introduction-content {
@@ -181,7 +186,7 @@ header {
     padding: 0;
     border-radius: .5em;
 }
-
+/* END HERO SECTION */
 
 /* VISION AND MISSION STATEMENT */
 .vision-mission {
@@ -200,6 +205,7 @@ header {
 .services-section-content {
     margin: 10px;
 }
+
 
 .services-cards {
     display: flex;
@@ -235,6 +241,7 @@ header {
     margin: 0 1em;
 }
 
+
 .contact-section {
     margin: 0;
     background-color: var(--secondary);
@@ -246,15 +253,25 @@ header {
     margin: 10px;
 }
 
+
+/* START FOOTER */
 footer {
+    position: absolute;
     margin: 0;
+    bottom: 0;
+    height: 5rem; 
+    width: 100%;
 }
 
 .footer-content {
     text-align: center;
 }
+/* END FOOTER */
 
 
+
+
+/* START CONTACT FORM */
 label {
     font-size: 1.333rem;
 }
@@ -293,7 +310,6 @@ label {
     border-radius: .8em;
     text-decoration: none;
     display: inline-block;
-
 }
 
 .contact-form button:hover {
@@ -302,3 +318,14 @@ label {
     box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
               0 1px 1px 0 rgba(0,0,0,0.09);
 }
+/* END CONTACT FORM */
+
+/* START THANK YOU PAGE */
+.thank-you-content {
+    max-width: 600px;
+    margin: auto;
+}
+.mail-sent-image {
+    width: 200px;
+}
+/* END THANK YOU PAGE */
