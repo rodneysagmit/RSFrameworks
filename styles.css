@@ -108,7 +108,6 @@ header {
     list-style-type: none;
     display: flex;
     gap: 4em;
-    margin: 2em;
 }
 
 .navigation li a {
@@ -239,6 +238,7 @@ header {
     margin: 0;
     background-color: var(--secondary);
     border-radius: .8em;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 
 .contact-section-content {
