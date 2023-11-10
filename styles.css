@@ -279,11 +279,12 @@ label {
 .contact-form {
     width: 80%;
     max-width: 800px;
-    padding: 10px;
+    padding: 10px 15px 100px 15px;
     background-color: hsl(0, 10%, 90%);
     border-radius: 8px;
     margin: auto;
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    position: relative;
 }
 
 .contact-form input, .contact-form textarea {
@@ -309,7 +310,7 @@ label {
     text-align: center;
     border-radius: .8em;
     text-decoration: none;
-    display: inline-block;
+    float: right;
 }
 
 .contact-form button:hover {
