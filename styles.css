@@ -127,6 +127,21 @@ header {
     color: black;
     border-bottom: 1px solid black;
 }
+
+.hamburger-menu {
+    display: none;
+}
+
+@media (max-width:680px) {
+    .hamburger-menu {
+        display: flex;
+    }
+
+    nav {
+        display: none;
+    }
+
+}
 /* END NAVIGATION & HEADER*/
 
 /* START HERO SECTION */
