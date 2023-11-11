@@ -18,18 +18,43 @@
                 <img src="assets/icon.png" alt="site icon of gear and wrench" class="logo">
                 <h5 class="title-logo"><a href="index.html" class="logo-link">RS Frameworks</a></h5>
             </div>
-            <nav>
-                <ul class="navigation">
-                    <li><a href="about.html">About</a></li>
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                <img class="icon-hamburger" src="assets/hamburger.svg" alt="" aria-hidden="true">
+                <img class="icon-close" src="assets/close.svg" alt="" aria-hidden="true">
+                <span class="visually-hidden">Menu</span>
+            </button>
+            <nav class="primary-navigation" id="primary-navigation">
+                <ul class="navigation-list" role="list" aria-label="Primary">
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-
             </nav>
         </header>
         <main>
             <h1>About Us</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam facere neque impedit dicta eos, laudantium quae eveniet vitae odio, aut veniam explicabo facilis reprehenderit sunt sequi fuga magni minima quidem.</p>
+        
+            <section class="vision-mission">
+                <div class="vision-mission-content">
+                    <h2>Our Vision and Mision</h2>
+                    <h3>The Vision</h3>
+                    <p>"To be the premier partner in harnessing cutting-edge technology to empower businesses through expertly engineered computer networks, innovative platform designs, and customized system solutions, driving their success and growth in an ever-evolving digital landscape."</p>
+                    <h3>The Mission Statement</h3>
+                    <p>At RS Frameworks, our mission is to deliver exceptional value and reliability to our clients by providing end-to-end solutions for their technology needs.</p>    
+                    <p>We are committed to: </p>
+                    <ul>
+                        <li><strong>Expertise and Excellence</strong>: Continuously investing in our team's knowledge and skills to stay at the forefront of technology trends and engineering best practices, ensuring we deliver nothing but excellence.</li>
+                        <li><strong>Tailored Solutions</strong>: Understanding our clients' unique business requirements and challenges to create customized computer networks, platform designs, and system solutions that drive efficiency, productivity, and innovation.</li>
+                        <li><strong>Innovation and Adaptability</strong>: Embracing innovation as our core ethos, we adapt swiftly to technological advancements, pioneering new solutions that keep our clients ahead of the curve.</li>
+                        <li><strong>Customer-Centric Approach</strong>: Placing our clients at the center of our operations, we build lasting relationships by providing unwavering support, transparent communication, and responsive service.</li>
+                        <li><strong>Sustainability and Responsibility</strong>: Promoting eco-friendly and socially responsible practices in technology solutions to contribute positively to the environment and society.</li>
+                        <li><strong>Community and Collaboration</strong>: Fostering a culture of collaboration, both within our team and with our clients, partners, and the broader community, to create a shared ecosystem of success.</li>
+                        <li><strong>Integrity and Trust</strong>: Upholding the highest ethical standards, we strive to earn the trust and respect of our clients, employees, and stakeholders by delivering on our promises.</li>
+                    </ul>
+                    <p>Our commitment to these principles ensures that RS Frameworks is not just a technology services provider but a trusted ally in our clients' journey towards digital transformation and business growth.</p>
+                </div>
+            </section>
         </main>
         <footer>
             <div class="footer-content">
@@ -39,4 +64,7 @@
         </footer>
     </div>
 </body>
+
+<script src="main.js"></script>
+
 </html>

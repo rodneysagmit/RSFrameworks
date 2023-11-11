@@ -18,18 +18,29 @@
                 <img src="assets/icon.png" alt="site icon of gear and wrench" class="logo">
                 <h5 class="title-logo"><a href="index.html" class="logo-link">RS Frameworks</a></h5>
             </div>
-            <nav>
-                <ul class="navigation">
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                <img class="icon-hamburger" src="assets/hamburger.svg" alt="" aria-hidden="true">
+                <img class="icon-close" src="assets/close.svg" alt="" aria-hidden="true">
+                <span class="visually-hidden">Menu</span>
+            </button>
+            <nav class="primary-navigation" id="primary-navigation">
+                <ul class="navigation-list" role="list" aria-label="Primary">
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-
             </nav>
         </header>
         <main>
             <h1>Services</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis amet facilis quis? Optio, laborum? Saepe impedit veniam exercitationem aliquid, enim expedita eaque reiciendis natus quidem quod consequuntur ex ullam eligendi.</p>
+            <h2>Network Engineering</h2>
+            <h2>Server Administration</h2>
+            <h2>Cloud Platforms</h2>
+            <h2>Security Systems</h2>
+            <h2>Other Applications</h2>
+            <h3>Internet of Things (IoT)</h3>
+            <h3>Automation and Integration</h3>
         </main>
         <footer>
             <div class="footer-content">
@@ -39,4 +50,7 @@
         </footer>
     </div>
 </body>
+
+<script src="main.js"></script>
+
 </html>

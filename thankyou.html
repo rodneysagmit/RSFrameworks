@@ -18,13 +18,17 @@
                 <img src="assets/icon.png" alt="site icon of gear and wrench" class="logo">
                 <h5 class="title-logo"><a href="index.html" class="logo-link">RS Frameworks</a></h5>
             </div>
-            <nav>
-                <ul class="navigation">
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                <img class="icon-hamburger" src="assets/hamburger.svg" alt="" aria-hidden="true">
+                <img class="icon-close" src="assets/close.svg" alt="" aria-hidden="true">
+                <span class="visually-hidden">Menu</span>
+            </button>
+            <nav class="primary-navigation" id="primary-navigation">
+                <ul class="navigation-list" role="list" aria-label="Primary">
                     <li><a href="about.html">About</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-
             </nav>
         </header>
         <main>
@@ -44,4 +48,7 @@
         </footer>
     </div>
 </body>
+
+<script src="main.js"></script>
+
 </html>
